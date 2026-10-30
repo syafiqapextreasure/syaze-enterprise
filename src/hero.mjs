@@ -10,7 +10,8 @@ export function innerHero(p){
   'tentang-kami':'Tentang<br><span>SYAZE Enterprise</span>',
   hubungi:'Hubungi<br><span>SYAZE Enterprise</span>'
  };
- const heroAsset=p.heroImage||(['kalkulator-pagar','tentang-kami','hubungi','panduan','galeri-pagar'].includes(p.slug)?'fence-white':null);
+ const headerImages={'galeri-pagar':'gallery-header','kalkulator-pagar':'fence-white-corner','tentang-kami':'gallery-header','hubungi':'gallery-header','panduan':'gallery-header'};
+ const heroAsset=headerImages[p.slug]||p.heroImage;
  const serviceName={'pagar-shera-plank':'Pagar Shera Plank',renovation:'Renovation',loteng:'Loteng','tiny-house':'Tiny House'}[p.slug];
  const crumbs=`<nav class="breadcrumbs" aria-label="Jejak halaman"><a href="/">Utama</a>${icon('chevron')}${p.slug.startsWith('panduan/')?'<a href="/panduan/">Panduan</a>'+icon('chevron'):''}<span>${esc(p.heading)}</span></nav>`;
  const type=p.slug==='renovation'?'hero-panorama':heroAsset?'hero-overlay':'hero-plain';

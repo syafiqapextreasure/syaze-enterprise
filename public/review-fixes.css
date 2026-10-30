@@ -1,0 +1,57 @@
+/* User's annotated review: one shared treatment across the eleven pages. */
+.sidebar-leaves{height:225px;min-height:225px;margin:16px -12px 0;background:url('/assets/sidebar-botanical-480.webp') left bottom/contain no-repeat;flex-shrink:0}
+.sidebar:after{display:none!important}
+.sidebar{overflow-y:auto}
+.project-enquiry,.inner-content>.project-enquiry:nth-child(n){display:grid;grid-template-columns:1fr 1.1fr;gap:1.2rem;background:#00502d url('/assets/leaf-background-960.webp') center/cover;color:#fff;align-items:start}
+.project-enquiry .enquiry-copy{grid-column:1;grid-row:1}
+.project-enquiry>.quote-form,.section.project-enquiry:has(>.quote-form)>.quote-form{grid-column:2;grid-row:1;margin:0}
+.project-enquiry .enquiry-copy>p{margin:.7rem 0 1rem}
+.enquiry-coverage{padding-top:.7rem;border-top:1px solid #ffffff40}
+.enquiry-coverage h3{display:flex;gap:.4rem;align-items:center;color:#fff}
+.enquiry-coverage .area-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:.5rem}
+.enquiry-coverage .area-list>span{flex-direction:row;justify-content:flex-start;background:#ffffffed;color:#073d28;border:0;padding:.55rem;font-size:.85rem;border-radius:6px}
+.enquiry-coverage .area-list .icon{width:26px;height:26px;flex-shrink:0}
+.enquiry-coverage .muted{color:#fff;font-size:.8rem}
+.project-enquiry .quote-form{color:var(--ink)}
+.illustration-banner{background:linear-gradient(90deg,#004722dc,#004722ad),url('/assets/tiny-garden-banner-960.webp') center/cover}
+.illustration-banner .icon-card>.icon{color:#fff}
+.photo-card figcaption h2,.photo-card figcaption h3,.photo-card figcaption p,.photo-card figcaption small{color:#fff}
+.photo-card figcaption p{margin:.25rem 0}
+.green-panel h2,.green-panel h3,.green-panel>.muted{color:#fff}
+.green-panel .quote-form,.green-panel .quote-form label{color:var(--ink)}
+.colour-swatches{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1rem 0}
+.colour-choice{display:flex;gap:.65rem;align-items:flex-start}
+.colour-choice h3{font-size:1rem;margin:0 0 .2rem}
+.colour-choice p{font-size:.85rem;line-height:1.35;margin:0}
+.colour-chip{display:block;flex:0 0 50px;width:50px;height:50px;border-radius:9px;box-shadow:inset 0 0 0 1px #0002,0 1px 3px #0002}
+.colour-chip.hitam{background:#171a19}.colour-chip.putih{background:#f8f8f5}.colour-chip.coklat{background:#875538}
+.calculator-layout{align-items:start}
+.calculator-diagram{display:block;background:#fff;padding:0;align-self:stretch}
+.calculator-visual{height:100%;display:flex;flex-direction:column;justify-content:center;gap:.4rem;margin:0;padding:0 .2rem;color:#172b23}
+.dimension-top{text-align:center;margin-left:2rem;font-size:.9rem;line-height:1.25}
+.dimension-top strong,.dimension-side strong,.dimension-bottom strong{display:block}
+.dimension-top>span{display:block;line-height:.7;font-size:2rem;transform:scaleX(3)}
+.dimension-middle{display:flex;gap:.2rem;align-items:center;min-height:0;flex:1}
+.dimension-side{width:2.7rem;flex-shrink:0;font-size:.78rem;text-align:center}
+.dimension-side>span{display:block;font-size:3rem;line-height:1.3}
+.calculator-panel{width:calc(100% - 2.9rem);height:100%;min-height:240px;max-height:420px;object-fit:fill}
+.dimension-bottom{display:flex;justify-content:space-around;margin-left:2rem;gap:.5rem;text-align:center;font-size:.78rem;line-height:1.25}
+.calculator-visual figcaption{text-align:center;font-size:.65rem;color:var(--muted);margin-top:.5rem}
+.faq-contact-banner{display:grid;grid-template-columns:3fr 1fr;min-height:250px;background:#f3f8f4;margin:0;padding:0}
+.faq-contact-main{display:grid;grid-template-columns:1.25fr .8fr;align-items:center;background:#00502d;color:#fff;overflow:hidden}
+.faq-contact-main>div{padding:1rem 0 1rem var(--pad);position:relative;z-index:1}
+.faq-contact-main h2{color:#fff;font-size:1.65rem;line-height:1.1;margin:0 0 .35rem}
+.faq-contact-main p{font-size:.9rem;line-height:1.35;margin:0 0 .7rem}
+.faq-contact-main .button{font-size:.85rem}
+.faq-contact-photo{width:100%;height:100%;max-height:300px;object-fit:cover;object-position:75% center;mask-image:linear-gradient(90deg,transparent,#000 25%)}
+.faq-contact-banner aside{padding:1rem;align-self:center;font-size:.85rem}
+.faq-contact-banner h3{font-size:.95rem;margin:0 0 .6rem}
+.faq-contact-banner ul{list-style:none;padding:0;margin:0}
+.faq-contact-banner li{display:flex;gap:.4rem;align-items:center;margin:.45rem 0}
+.faq-contact-banner li>.icon{width:20px;height:20px;color:#008335;flex-shrink:0}
+@media(max-width:1200px) and (min-width:701px){.calculator-layout{grid-template-columns:1fr 1fr}.calculator-diagram{grid-column:2;grid-row:1}.result-panel{grid-column:1/-1}.calculator-panel{max-height:310px}}
+@media(max-width:900px){.project-enquiry,.inner-content>.project-enquiry:nth-child(n){grid-template-columns:1fr}.project-enquiry .enquiry-copy,.project-enquiry>.quote-form,.section.project-enquiry:has(>.quote-form)>.quote-form{grid-column:1;grid-row:auto}.enquiry-coverage .area-list{grid-template-columns:repeat(3,minmax(0,1fr))}.faq-contact-banner{grid-template-columns:1fr}.faq-contact-banner aside ul{display:grid;grid-template-columns:1fr 1fr;gap:.3rem}.faq-contact-banner aside{padding:1rem var(--pad)}}
+@media(max-width:700px){.calculator-layout{grid-template-columns:1fr}.calculator-diagram{grid-row:2;max-height:390px}.calculator-visual{min-height:350px}.calculator-panel{height:220px;min-height:220px;object-fit:contain}.result-panel{grid-row:3}.colour-swatches{grid-template-columns:1fr;gap:.75rem}.colour-chip{width:44px;height:44px;flex-basis:44px}.enquiry-coverage .area-list{grid-template-columns:1fr 1fr}.faq-contact-main{grid-template-columns:1.3fr .7fr}.faq-contact-main>div{padding:1rem 0 1rem var(--pad)}.faq-contact-main h2{font-size:1.5rem}.faq-contact-main .button{padding:.65rem;font-size:.8rem}.faq-contact-photo{min-height:270px}.faq-contact-banner aside ul{grid-template-columns:1fr}}
+
+.result-panel .button{background:linear-gradient(120deg,#04bc2b,#008d25);color:#fff}.result-panel #calc-cut-length{white-space:nowrap}
+.related-grid:has(>.related-card:nth-child(4)) .related-card{display:grid;grid-template-columns:1fr 24px;align-items:start}.related-grid:has(>.related-card:nth-child(4)) .related-photo{grid-column:1/-1;width:100%;height:auto;aspect-ratio:1.7;object-fit:cover}.related-grid:has(>.related-card:nth-child(4)) .related-card>span{min-width:0}

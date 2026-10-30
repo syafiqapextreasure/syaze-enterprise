@@ -52,6 +52,7 @@ if(calculator) {
     const button = document.querySelector('#calc-whatsapp');
     try {
       result = calculateFence(Object.fromEntries(new FormData(calculator)));
+      for(const el of document.querySelectorAll('[data-dimension]')){const field=el.dataset.dimension;el.textContent=calculator.elements.namedItem(field).value+(['length','height'].includes(field)?' m':' mm');}
       document.querySelector('#calc-base').textContent = result.base.toLocaleString('ms-MY');
       document.querySelector('#calc-total').textContent = result.total.toLocaleString('ms-MY');
       document.querySelector('#calc-cut-length').textContent = result.height + ' m';

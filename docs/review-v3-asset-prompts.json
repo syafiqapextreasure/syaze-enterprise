@@ -1,0 +1,42 @@
+[
+  {
+    "name": "tiny-garden-banner",
+    "ref": "C:/Users/user/Documents/Codex/2026-10-30/can/outputs/inner-page-designs/04-tiny-house.png",
+    "prompt": "Create a standalone high-resolution 1536x1024 landscape architectural garden photo matching ONLY the leafy photographic background in the dark-green middle discussion section of this approved website. New distinct composition, NOT the large tiny-house hero image. A lush Malaysian tropical garden: layered glossy green broad leaves, palm fronds, leafy trees fill the left two thirds and center, soft natural daylight with dappled shade. At the FAR RIGHT EDGE only, a small modest white garden cottage with dark simple pitched roof and small black window is partially visible through foliage, occupying no more than rightmost quarter. Camera from deep garden looking across foliage toward cottage, wide environmental view, no large house in center. Clean natural professional photography to sit under dark-green CSS overlay with white text; do not add overlay or text to the photograph. No people, no UI, no icons, no logos, no words, no collage. Landscape 3:2, high detail.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a18c2e-4f7c-70f0-8496-8e0edebb1078\\exec-5e11251e-4431-4cd6-8f4a-63b40c35ee4b.png",
+    "generation": "Built-in image generator; referenced approved design or existing gate image; model not selectable."
+  },
+  {
+    "name": "fence-black-detail",
+    "ref": "C:/Users/user/Documents/Codex/2026-10-30/can/work/syaze-site/public/assets/fence-black.webp",
+    "prompt": "Create a NEW close-up professional product installation photograph based on the TYPE of black Shera plank gate in the reference, not a duplicate of its wide frontal composition. 1536x1024 landscape 3:2. View from INSIDE the gate at a shallow diagonal angle, filling frame with only a close section of 5-7 narrow VERTICAL flat-square-top black woodgrain fiber-cement Shera plank slats. Thin consistent gaps. Clearly show matte black rectangular steel gate frame and one horizontal rear crossrail across lower-middle, clean bolt heads securing planks, a subtle real hinge/joinery connection near right edge. Close enough to read woodgrain and frame attachment detail, restrained realistic hardware. Top edges of vertical planks aligned level and visible, beyond them softly defocused tropical Malaysian garden greens and daylight. Correct plausible gate construction, natural daylight, crisp material detail, no house cladding, no wide complete gate, no ornamental rectangles, no person, no text or logo or website UI. Keep black coated plank appearance and material fidelity to reference but clearly a unique detail photograph.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a18c2e-4f7c-70f0-8496-8e0edebb1078\\exec-bb27be6c-89e0-46c0-9cd5-f86cb722a1ef.png",
+    "generation": "Built-in image generator; referenced approved design or existing gate image; model not selectable."
+  },
+  {
+    "name": "gallery-header",
+    "mode": "built-in image generation",
+    "prompt": "Create a high quality photorealistic WEBSITE HEADER ASSET ONLY, wide landscape 1536x1024. Malaysian tropical residential fence detail, straight vertical Shera fibre cement planks painted warm charcoal grey attached to a black metal frame, subtle timber-grain texture and narrow uniform gaps, flat rectangular tops (NOT pointed pickets), green tropical plants softly blurred behind, warm daylight. Fresh composition: oblique close perspective along the fence with golden sun striking the edge, no house wall cladding. Fence on right two thirds, softer pale neutral garden bokeh on left for a website text overlay. No words, labels, logo or watermark. This is a distinct gallery header, not the white roadside perimeter fence used elsewhere."
+  },
+  {
+    "name": "calculator-panel",
+    "mode": "built-in image generation",
+    "reference": "Approved calculator design",
+    "prompt": "Extract/recreate ONLY the white vertical flat-top fence panel from the calculator illustration at upper center of the reference. Output one isolated product illustration on pure white background, landscape 1536x1024. 8 white rectangular straight vertical flat-top Shera plank fence slats, small even gaps, two white horizontal rails behind, subtle realistic grey edge shadows exactly like reference. Orthographic straight FRONT elevation, no perspective. Fill 90% width and 85% height with fence, no margins. Do NOT include any of the website, text, labels, measurement arrows, logo, ground or plants. Only the white fence panel; live measurement labels will be added in HTML around it."
+  },
+  {
+    "name": "renovation-header",
+    "mode": "built-in image generation",
+    "brief": "Bright finished Malaysian living room, cream walls, warm oak accents, diagonal view from pale foyer toward lounge on right, cream sofa, oak table, daylight windows overlooking tropical greenery. Airy pale left third for hero text. Realistic architectural photography; no people, text, logos or watermark."
+  },
+  {
+    "name": "loft-header",
+    "mode": "built-in image generation",
+    "brief": "Double-height Malaysian interior with upper mezzanine office, black metal balustrade, oak stairs on right, large daylight windows, pale open left third for hero text. Lower reading lounge, believable connected stairs and landing. Realistic architectural photography; no people, text, logos or watermark."
+  },
+  {
+    "name": "fence-white-corner",
+    "mode": "built-in image generation",
+    "brief": "Malaysian residential garden boundary fence corner viewed from outside. White Shera-style woodgrain fibre-cement fencing, straight vertical flat-top rectangular planks, narrow even gaps on low pale concrete base, turns90degrees at corner. Lush maintained tropical garden behind, clean pale concrete pedestrian foreground. Eye-level three-quarter view, soft natural daylight, no text/logos/people."
+  }
+]
