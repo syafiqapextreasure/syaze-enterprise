@@ -1,6 +1,6 @@
 # Completed validation
 
-Date: 30 October 2026.
+Date: 31 October 2026. See design-corrections.md for the visual restoration.
 
 ## Functional checks
 
@@ -23,7 +23,7 @@ Full-page desktop screenshots were captured for the homepage and all ten inner p
 
 The implemented site follows the approved green/white palette, dark sidebar, stacked Shera-fence hero, four exclusive homepage service photographs, resource cards, coverage strip and botanical enquiry background. Inner pages use the approved distinct hero compositions, imagery, structured sections and enquiry flows.
 
-This is not a pixel-identical extraction of the raster mockups. Explicit differences: responsive reflow and readable live text; Roboto Condensed as the closest implemented typeface; recreated logo/photo details; scalable SVG icons; consistent business details; functional controls; and slightly different section heights/copy wrapping. Unsupported guarantees and fictional project claims were not transferred from image-generated text.
+This is not a pixel-identical extraction of the raster mockups. Explicit differences: responsive reflow and readable live text; Roboto body text with Roboto Condensed section headings; recreated logo/photo details; scalable SVG icons; consistent business details; functional controls; and slightly different section heights/copy wrapping. Unsupported guarantees and fictional project claims were not transferred from image-generated text.
 
 ## Asset checks
 

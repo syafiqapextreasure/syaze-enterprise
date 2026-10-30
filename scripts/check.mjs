@@ -24,7 +24,7 @@ for(const p of pages){
   else{try{await stat(path.join('dist',pathname))}catch{fail('Missing asset '+pathname)}}
   if(target.includes('#')){const id=target.split('#')[1];const destination=await readFile(path.join('dist',pathname,'index.html'),'utf8').catch(()=>'');if(!destination.includes(`id="${id}"`))fail('Missing anchor '+target)}
  }
- for(const match of html.matchAll(/<img\b[^>]*>/g))if(!/alt="[^"]+"/.test(match[0]))fail('Image lacks alt');
+ for(const match of html.matchAll(/<img\b[^>]*>/g))if(!/alt="[^"]+"/.test(match[0])&&!(/alt=""/.test(match[0])&&/aria-hidden="true"/.test(match[0])))fail('Image lacks alt');
  if(!html.includes('018-956 9639')||!html.includes('shamsulanuar_yahaya@hotmail.com'))fail('Contact facts missing');
 }
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1}else console.log(`PASS: ${pages.length} pages, unique metadata, JSON-LD, internal routes/anchors, image assets and business contacts.`);
