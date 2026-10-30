@@ -1,0 +1,486 @@
+[
+  {
+    "name": "hero",
+    "file": "hero.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 1941567,
+    "webp_bytes": 1235496,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "hero-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 150192
+      },
+      {
+        "file": "hero-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 543892
+      }
+    ],
+    "prompt": "Use case: compositing. Extract and recreate ONLY the hero BACKGROUND PHOTOGRAPH from the attached website design, high quality landscape 3:2. NO text, NO logo, NO UI, NO icons, NO sidebar. White VERTICAL narrow Shera fence slats across the RIGHT side, a modest painted cream Malaysian house behind and tropical shrubs. Foreground right: three elongated thin flat square-edged wood-grain fiber-cement FENCE slat samples leaning together, white front-left, warm brown center and charcoal right, matching the reference's material samples and slender proportions, no thick timber/decking. Match original right-half composition closely. Left 40% should be soft bright white with naturally fading glimpse of sky/foliage so web text can overlay there, right 60% richly photographic. White fade toward left and bottom, no dark vignette. Product samples and fence stay right, never put them in central text area. Bright blue sky upper right, soft daylight, crisp realistic detail. Full-bleed image only.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "logo",
+    "file": "logo.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "original_bytes": 1686790,
+    "webp_bytes": 1071796,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "logo-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 104414
+      },
+      {
+        "file": "logo-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 347182
+      },
+      {
+        "file": "logo-160.webp",
+        "width": 160,
+        "height": 107,
+        "bytes": 19754
+      },
+      {
+        "file": "logo-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 57448
+      }
+    ],
+    "prompt": "Use case: background-extraction. Extract ONLY the exact top-left SYAZE ENTERPRISE logo from the attached poster onto a genuinely transparent alpha background. Preserve original stacked arrangement exactly: gold/black architectural roof emblem above upright white/gray vertical slats, green leaves at both bottom sides; gold bold SYAZE word below emblem, white uppercase ENTERPRISE below. Keep all letter shapes, bevels, proportions and gold/white/green colors. No redesign, no extra words, no poster background, no house, no border or tile. Clean high-resolution isolated logo centered and tightly framed with modest margin, transparent background. The word is S Y A Z E, not SHAZE. White ENTERPRISE should remain white for dark website sidebar.",
+    "source_kind": "built_in_image_generator_recreation",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  },
+  {
+    "name": "home-fence",
+    "file": "home-fence.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2677940,
+    "webp_bytes": 1809192,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "home-fence-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 216920
+      },
+      {
+        "file": "home-fence-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 775432
+      }
+    ],
+    "prompt": "Use case: photorealistic-natural. Extract/recreate as a standalone high-quality 3:2 landscape photograph the corresponding home-fence service thumbnail from the attached approved website mockup. Scene: graphite-gray vertical narrow wood-grain fiber-cement slat boundary fence on a low pale concrete base, slim black square posts, neat short grass foreground and tropical shrubs behind; view diagonally along fence in soft daylight. No gate bars, no red brick, no white fence. Match that thumbnail composition, materials and lighting closely. NO text, NO UI, NO logos, NO watermarks, no icons, no collage or frames. This is one usable full-bleed website photograph. Realistic Malaysian residential setting and professional architectural photography, clean straight lines, rich detail.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "home-renovation",
+    "file": "home-renovation.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2045207,
+    "webp_bytes": 1340740,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "home-renovation-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 144394
+      },
+      {
+        "file": "home-renovation-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 558762
+      }
+    ],
+    "prompt": "Use case: photorealistic-natural. Extract/recreate as a standalone high-quality 3:2 landscape photograph the corresponding home-renovation service thumbnail from the attached approved website mockup. Scene: bright kitchen renovation in progress with light-gray base cabinets, partly unfinished plaster backsplash wall, daylight window on left, tools and yellow spirit level neatly resting on countertop, pale tile floor. No people, no living-room sofa. Match that thumbnail composition, materials and lighting closely. NO text, NO UI, NO logos, NO watermarks, no icons, no collage or frames. This is one usable full-bleed website photograph. Realistic Malaysian residential setting and professional architectural photography, clean straight lines, rich detail.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "home-loft",
+    "file": "home-loft.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2232018,
+    "webp_bytes": 1454770,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "home-loft-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 156264
+      },
+      {
+        "file": "home-loft-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 594140
+      }
+    ],
+    "prompt": "Use case: photorealistic-natural. Extract/recreate as a standalone high-quality 3:2 landscape photograph the corresponding home-loft service thumbnail from the attached approved website mockup. Scene: compact attic loft workspace under pitched white ceiling, large sloping skylight upper left, simple wooden desk and black chair, warm timber floor, black metal guardrail around stair opening on right; lower room glimpsed. Warm natural daylight, no conventional double-height living room. Match that thumbnail composition, materials and lighting closely. NO text, NO UI, NO logos, NO watermarks, no icons, no collage or frames. This is one usable full-bleed website photograph. Realistic Malaysian residential setting and professional architectural photography, clean straight lines, rich detail.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "home-tiny",
+    "file": "home-tiny.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 3222023,
+    "webp_bytes": 2205970,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "home-tiny-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 254880
+      },
+      {
+        "file": "home-tiny-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 935780
+      }
+    ],
+    "prompt": "Use case: photorealistic-natural. Extract/recreate as a standalone high-quality 3:2 landscape photograph the corresponding home-tiny service thumbnail from the attached approved website mockup. Scene: small detached modern tiny house with pale gray painted render walls, a dark pitched gabled metal roof, small front porch, glass sliding entry and side window, tropical garden and grass. Three-quarter frontal view, no wood cladding, no Shera cladding on house, no flat roof. Match that thumbnail composition, materials and lighting closely. NO text, NO UI, NO logos, NO watermarks, no icons, no collage or frames. This is one usable full-bleed website photograph. Realistic Malaysian residential setting and professional architectural photography, clean straight lines, rich detail.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "fence-black",
+    "file": "fence-black.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2934478,
+    "webp_bytes": 1866318,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "fence-black-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 181412
+      },
+      {
+        "file": "fence-black-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 735100
+      }
+    ],
+    "prompt": "Reused existing reference-based generated full-resolution fence photograph.",
+    "source_kind": "existing_ai_recreation"
+  },
+  {
+    "name": "fence-white-brick",
+    "file": "fence-white-brick.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2915413,
+    "webp_bytes": 1943256,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "fence-white-brick-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 203804
+      },
+      {
+        "file": "fence-white-brick-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 787066
+      }
+    ],
+    "prompt": "Reused existing reference-based generated full-resolution fence photograph.",
+    "source_kind": "existing_ai_recreation"
+  },
+  {
+    "name": "fence-brown",
+    "file": "fence-brown.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 3314423,
+    "webp_bytes": 1955344,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "fence-brown-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 169878
+      },
+      {
+        "file": "fence-brown-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 743032
+      }
+    ],
+    "prompt": "Reused existing reference-based generated full-resolution fence photograph.",
+    "source_kind": "existing_ai_recreation"
+  },
+  {
+    "name": "fence-white",
+    "file": "fence-white.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2939534,
+    "webp_bytes": 1938372,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "fence-white-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 212130
+      },
+      {
+        "file": "fence-white-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 813306
+      }
+    ],
+    "prompt": "Reused existing reference-based generated full-resolution fence photograph.",
+    "source_kind": "existing_ai_recreation"
+  },
+  {
+    "name": "renovation",
+    "file": "renovation.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2810579,
+    "webp_bytes": 1839740,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "renovation-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 183636
+      },
+      {
+        "file": "renovation-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 744128
+      }
+    ],
+    "prompt": "Recreate/extract the MAIN large living-room photo in this website as one standalone 3:2 landscape professional architectural photograph. Warm Malaysian modern open-plan living-dining interior, beige sofa left, round timber coffee table, sheer curtains, pale neutral walls and framed artwork, dining area behind. Match approved reference closely. No text, no icons, no logo, no UI, no typography. Photorealistic high resolution daylight. This is the inner renovation service photo, not the kitchen-renovation scene.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "loft",
+    "file": "loft.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2184701,
+    "webp_bytes": 1473368,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "loft-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 161234
+      },
+      {
+        "file": "loft-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 620652
+      }
+    ],
+    "prompt": "Recreate/extract the main indoor MEZZANINE photo in this website as one standalone 3:2 landscape architectural photograph. White double-height interior, compact upper mezzanine platform at rear and left, black railings, timber stairs rising right, small dining table under loft and pale tile floor. Match approved reference closely, physically plausible guardrails and stairs. No text, no icons, no logos, no UI. Bright realistic professional photo. Not an attic desk scene.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "tiny",
+    "file": "tiny.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2734736,
+    "webp_bytes": 2012772,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "tiny-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 237768
+      },
+      {
+        "file": "tiny-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 867186
+      }
+    ],
+    "prompt": "Recreate/extract the main WHITE TINY HOUSE photo in this website as one standalone 3:2 landscape architectural photograph. Modest compact single-story white painted tiny house, simple shallow single-pitch metal roof, dark framed entry left and window right, tropical palms and grass, 3/4 view. Match approved mockup closely. No wood or Shera plank cladding on house. No text, no icons, no logos, no UI, no collage. Crisp daylight photorealism.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "installer",
+    "file": "installer.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2234796,
+    "webp_bytes": 1548526,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "installer-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 195344
+      },
+      {
+        "file": "installer-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 675358
+      }
+    ],
+    "prompt": "Create a standalone 3:2 landscape professional photo consistent with attached Malaysian contractor website. Close three-quarter rear view of an adult contractor in navy work shirt, yellow safety helmet, gloves and eye protection using a drill to attach a WHITE NARROW VERTICAL fence slat to a freestanding outdoor metal fence frame. Tropical foliage behind, bright daylight, modest residence context, show long vertical fence not house siding. Plain shirt no logo or text. Photo only, no UI, no captions. Natural realistic proportions and correct hand/tool position. No horizontal house cladding.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "leaf-background",
+    "file": "leaf-background.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 1441873,
+    "webp_bytes": 791674,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "leaf-background-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 96654
+      },
+      {
+        "file": "leaf-background-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 367196
+      }
+    ],
+    "prompt": "Extract/recreate ONLY the subtle green tropical leaf silhouette decorative background seen in bottom green enquiry banner of this website. Full-bleed 3:2 landscape bitmap texture, dark forest green (#00532c) base, slightly lighter layered tropical leaf silhouettes entering from lower left and right edges, center mostly clear with very low contrast leafy shapes. No words, logos, icons, buttons, fence, house or UI. Elegant understated flat tonal botanical background for a readable white-text website CTA.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "renovation-finishes",
+    "file": "renovation-finishes.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2773125,
+    "webp_bytes": 1672416,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "renovation-finishes-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 182816
+      },
+      {
+        "file": "renovation-finishes-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 698430
+      }
+    ],
+    "prompt": "Recreate the materials palette photograph from attached renovation website as one standalone landscape 3:2 high-quality professional photo, no website UI. Close overhead and oblique view of interior finish samples arranged neatly on a light oak table: warm timber boards, matte ivory and grey square ceramic tile pieces, two small fan decks of neutral paint swatches, one pale stone sample. Bright soft natural daylight, neutral Malaysian home renovation consultancy mood. Realistically sized samples and clean textured material detail. Match visual language of attached approved page. No text, numbers, logos, captions, buttons, borders or icons.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "renovation-plan",
+    "file": "renovation-plan.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2428775,
+    "webp_bytes": 1558936,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "renovation-plan-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 166896
+      },
+      {
+        "file": "renovation-plan-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 649438
+      }
+    ],
+    "prompt": "Recreate the planning photograph from attached renovation website as one standalone landscape 3:2 high-quality professional photo, no website UI. Overhead view of realistic residential architectural floor plan sheets on a light timber desk, black line drawings of rooms, doorway arcs and windows, one black and yellow retractable tape measure, graphite pencil, simple ruler. Bright soft daylight, tidy practical renovation planning scene. Match neutral clean natural visual language of attached approved page. No legible text, no logo, no captions or icons, no website elements. Photorealistic.",
+    "source_kind": "built_in_image_generator_recreation"
+  },
+  {
+    "name": "tiny-interior",
+    "file": "tiny-interior.webp",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "original_bytes": 2415112,
+    "webp_bytes": 1592514,
+    "pixel_equal_master": true,
+    "variants": [
+      {
+        "file": "tiny-interior-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 162240
+      },
+      {
+        "file": "tiny-interior-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 649322
+      }
+    ],
+    "prompt": "Recreate the interior photo from attached approved tiny house page as a standalone 3:2 landscape professional architectural photograph. Modest compact warm white living room in a small Malaysian tiny house, grey fabric sofa along right wall, simple small kitchenette at left, natural light timber ceiling and floor, rear glass door opening toward tropical green foliage, bright gentle daylight. Realistic compact dimensions, welcoming uncluttered layout, no luxury oversized space. Match the design's interior scene closely. No text, UI, logos, icons, collage, labels or captions.",
+    "source_kind": "built_in_image_generator_recreation"
+  }
+]

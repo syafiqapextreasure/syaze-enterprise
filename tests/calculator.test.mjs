@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {calculateFence, calculatorMessage, whatsappURL} from '../public/calculator.mjs';
+const example = {length:6,height:1.5,width:150,gap:10,waste:10};
+test('example rounds slats then applies surplus',()=>{const r=calculateFence(example);assert.equal(r.base,38);assert.equal(r.total,42)});
+test('height changes cut length, not slat count',()=>{assert.equal(calculateFence({...example,height:3}).total,42)});
+test('exact pitch and no surplus do not round up an extra slat',()=>{assert.equal(calculateFence({...example,length:6.4,waste:0}).total,40)});
+test('zero gap and maximum surplus are supported',()=>{assert.equal(calculateFence({...example,gap:0,waste:100}).total,80)});
+test('missing, nonfinite, out-of-range and negative measurements are rejected',()=>{for(const bad of ['',null,NaN,Infinity,-1,1001])assert.throws(()=>calculateFence({...example,length:bad}),RangeError);assert.throws(()=>calculateFence({...example,width:0}),RangeError)});
+test('WhatsApp handoff encodes Malay input and discloses estimate limitations',()=>{const message=calculatorMessage(calculateFence(example));assert.match(message,/42 bilah potong/);assert.match(message,/bukan jumlah papan stok/);assert.equal(new URL(whatsappURL(message)).searchParams.get('text'),message)});
