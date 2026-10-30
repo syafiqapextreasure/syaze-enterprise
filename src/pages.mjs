@@ -2,7 +2,7 @@
 export function getPages(ui) {
   const { icon, img, button, faq, related, areas, quoteForm, steps, section } = ui;
   const wa = 'https://wa.me/60189569639';
-  const photoNote = '<p class="muted photo-note">Visual ilustrasi. Bukan dokumentasi projek yang telah disiapkan.</p>';
+  const photoNote = '';
   const fenceNote = '<p class="muted photo-note">Visual olahan berdasarkan gambar rujukan. Sahkan warna, saiz dan susun atur dengan kami.</p>';
   const card = (heading, text, asset) => `<div class="card">${asset?img(asset,heading,'card-photo'):''}<h3>${heading}</h3><p>${text}</p></div>`;
   const iconCard = (heading, text, symbol) => `<div class="card icon-card">${icon(symbol)}<h3>${heading}</h3><p>${text}</p></div>`;
@@ -70,7 +70,7 @@ export function getPages(ui) {
         '<strong>Lokasi projek:</strong> kongsi kawasan dan alamat untuk semakan.',
         '<strong>Keutamaan kerja:</strong> nyatakan perubahan yang paling diperlukan.',
         '<strong>Bajet sasaran:</strong> jika ada, kongsikan sebagai rujukan perbincangan.'
-      ])}</div><figure class="image-panel">${img('renovation-plan','Pelan ruang dengan pita ukur dan pensel di atas meja')}<figcaption>Visual ilustrasi perancangan ruang.</figcaption></figure></div>`)
+      ])}</div><figure class="image-panel">${img('renovation-plan','Pelan ruang dengan pita ukur dan pensel di atas meja')}</figure></div>`)
       + section('Daripada idea kepada skop kerja', steps([
         ['Kongsi keperluan', 'Beritahu ruang dan perubahan yang anda inginkan.'],
         ['Bincang skop', 'Semak maklumat dan perkara yang perlu dibuat.'],
@@ -181,7 +181,7 @@ export function getPages(ui) {
   });
 
   const numberField = (name, label, value, min, max, step, unit) => `<label class="field" for="calc-${name}"><span>${label}</span><span class="input-unit"><input id="calc-${name}" name="${name}" type="number" inputmode="decimal" value="${value}" min="${min}" max="${max}" step="${step}" required aria-describedby="calculator-assumptions"><span aria-hidden="true">${unit}</span></span></label>`;
-  const fenceDiagram = `<figure class="calculator-visual"><div class="dimension-top">Panjang pagar<strong data-dimension="length">6 m</strong><span>↔</span></div><div class="dimension-middle"><div class="dimension-side">Tinggi bilah<strong data-dimension="height">1.5 m</strong><span>↕</span></div>${img('calculator-panel','Ilustrasi bilah pagar putih menegak seperti rujukan ukuran','calculator-panel')}</div><div class="dimension-bottom"><span>↔<br>Lebar bilah<strong data-dimension="width">150 mm</strong></span><span>↔<br>Jarak bilah<strong data-dimension="gap">10 mm</strong></span></div><figcaption>Visual olahan berdasarkan rujukan.</figcaption></figure>`;
+  const fenceDiagram = `<figure class="calculator-visual"><div class="fence-measurement-canvas">${img('calculator-panel','Bilah pagar putih dengan ukuran panjang, tinggi, lebar dan jarak','measured-fence')}<svg class="fence-measurements" viewBox="0 0 1800 1500" aria-label="Ukuran pagar" role="img"><defs><marker id="dimension-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="currentColor" stroke-width="1.5"/></marker></defs><g fill="none" stroke="currentColor" stroke-width="5"><path class="dimension-extension" d="M306 255V170M1708 255V170M306 255H190M306 1240H190M306 1240V1330M432 1240V1330M500 1240V1290"/><path marker-start="url(#dimension-arrow)" marker-end="url(#dimension-arrow)" d="M306 195H1708M220 255V1240M306 1310H432M432 1270H500"/><path d="M466 1280V1350H1110" stroke-width="3"/></g><g text-anchor="middle" fill="currentColor" font-family="Roboto,Arial,sans-serif" font-size="80"><text x="1007" y="70">Panjang pagar<tspan x="1007" dy="65" font-weight="700" data-dimension="length">6 m</tspan></text><text x="90" y="650" font-size="64">Tinggi<tspan x="90" dy="55">bilah</tspan><tspan x="90" dy="65" font-weight="700" data-dimension="height">1.5 m</tspan></text><text x="370" y="1410" font-size="64">Lebar bilah<tspan x="370" dy="60" font-weight="700" data-dimension="width">150 mm</tspan></text><text x="1110" y="1410" font-size="64">Jarak bilah<tspan x="1110" dy="60" font-weight="700" data-dimension="gap">10 mm</tspan></text></g></svg></div></figure>`;
   pages.push({
     slug: 'kalkulator-pagar',
     title: 'Kalkulator Pagar Shera Plank — Anggaran Bilah',

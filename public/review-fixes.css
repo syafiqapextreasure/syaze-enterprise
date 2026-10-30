@@ -55,3 +55,6 @@
 
 .result-panel .button{background:linear-gradient(120deg,#04bc2b,#008d25);color:#fff}.result-panel #calc-cut-length{white-space:nowrap}
 .related-grid:has(>.related-card:nth-child(4)) .related-card{display:grid;grid-template-columns:1fr 24px;align-items:start}.related-grid:has(>.related-card:nth-child(4)) .related-photo{grid-column:1/-1;width:100%;height:auto;aspect-ratio:1.7;object-fit:cover}.related-grid:has(>.related-card:nth-child(4)) .related-card>span{min-width:0}
+
+/* Measurement arrows share the exact coordinate system of the fence photograph. */
+.calculator-visual{justify-content:flex-start;height:auto;padding:0}.fence-measurement-canvas{position:relative;width:100%;aspect-ratio:1800/1500;color:#193a2c}.fence-measurement-canvas>.measured-fence{position:absolute;left:13.3333%;top:16%;width:85.3333%;height:68.2667%;object-fit:fill;min-height:0;max-height:none}.fence-measurements{position:absolute;inset:0;width:100%;height:100%;overflow:visible}.dimension-extension{opacity:.5;stroke-width:3}.calculator-diagram{align-self:start}@media(max-width:700px){.calculator-visual{min-height:0}.calculator-diagram{max-height:none}}
